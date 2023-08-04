@@ -19,6 +19,12 @@
     line-height: 1.33;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    max-width: max-content;
+}
+
+.botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
 }
 
 .link {
@@ -45,6 +51,10 @@
 
 .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario:hover {
+    background: var(--cor-9);
 }
 
 @media (max-width: 600px) {
